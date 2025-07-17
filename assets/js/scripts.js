@@ -15,7 +15,14 @@ Version      : 1.0
 		}); 
 		/*END PRELOADER JS*/
 		
-		$('.main-menu').meanmenu();		
+		$('.main-menu ul').meanmenu({
+    			meanMenuContainer: '.top-logo',  // Show mobile menu under top-logo
+    			meanScreenWidth: "768",          // Activate meanmenu below 768px width
+    			meanRevealPosition: "right",     // Menu icon appears on the right
+    			meanMenuOpen: "<i class='fa fa-bars'></i>",
+    			meanMenuClose: "<i class='fa fa-times'></i>"
+});
+		
         
         /*START CHANGE MENU BACKGROUND JS*/
 			var headertopoption = $(window);
