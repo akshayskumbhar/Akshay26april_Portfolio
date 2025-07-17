@@ -20,30 +20,6 @@
 .top-logo{display:none}
 }
 
-@media only screen and (max-width: 767px) {
-  .about_me img {
-    max-width: 80%;
-    margin: 0 auto;
-  }
-
-  .home_btn a {
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-
-  .main-menu ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .main-menu ul li {
-    margin: 10px 0;
-  }
-}
-
 @media only screen and (min-width:480px) and (max-width:767px){
 .logo{display:none}
 .top-logo{left:0;padding:10px;position:absolute;text-align:center;top:-75px;width:100%}
@@ -62,6 +38,7 @@
 
 @media only screen and (min-width:240px) and (max-width:319px){
 .logo{display:none}
+.main-menu ul li{padding:30px 20px}
 .top-logo{left:0;padding:10px;position:absolute;text-align:center;top:-75px;width:100%}
 .top-logo img{width:auto!important}
 .button{margin-right:0; margin-top: 10px;}
