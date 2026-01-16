@@ -12,13 +12,6 @@ The portfolio focuses on clean UI, responsive design, and real-world project pre
 
 ---
 
-## 👨‍💻 About Me
-
-I am a passionate **Software Developer** with experience in building modern web applications and implementing real-world solutions.  
-This portfolio reflects my learning journey, technical expertise, and interest in software development.
-
----
-
 ## 🛠️ Tech Stack
 
 ### Frontend
