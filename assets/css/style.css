@@ -595,3 +595,7 @@ body.scroll-page {
 .resume-section ul li {
   margin-bottom: 6px;
 }
+#formStatus {
+  margin-top: 10px;
+  font-size: 14px;
+}
