@@ -541,3 +541,57 @@ body.scroll-page {
   cursor: pointer;
   color: #38bdf8;
 }
+
+/* ===== RESUME PAGE ===== */
+
+.resume-header {
+  background: #020617;
+  padding: 30px;
+  border-radius: 14px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.resume-header h1 {
+  font-size: 36px;
+  color: #facc15;
+}
+
+.resume-header h3 {
+  color: #38bdf8;
+  margin-bottom: 15px;
+}
+
+.resume-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  font-size: 14px;
+  color: #cbd5f5;
+}
+
+.resume-section {
+  background: #020617;
+  padding: 30px;
+  border-radius: 14px;
+  margin-bottom: 25px;
+}
+
+.resume-section h2 {
+  color: #38bdf8;
+  margin-bottom: 15px;
+}
+
+.resume-section .muted {
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.resume-section ul {
+  padding-left: 20px;
+}
+
+.resume-section ul li {
+  margin-bottom: 6px;
+}
