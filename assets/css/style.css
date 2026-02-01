@@ -15,47 +15,46 @@ body.scroll-page {
   overflow-y: auto;
   overflow-x: hidden;
 }
-/* ===== HEADER ===== */
-.header {
-  height: 70px;
-  width: 100%;
+/* ===== BOOTSTRAP NAVBAR CUSTOM ===== */
+.custom-navbar {
   background: #020617;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 60px;
-  position: fixed;
-  top: 0;
+  height: 70px;
   z-index: 1000;
 }
 
-.logo {
-  font-size: 22px;
-  font-weight: bold;
-  color: #38bdf8;
+.navbar-brand {
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 
-.nav a {
-  margin-left: 30px;
-  text-decoration: none;
-  color: #cbd5f5;
+.nav-link {
+  color: #cbd5f5 !important;
   font-size: 15px;
   position: relative;
 }
 
-.nav a::after {
+.nav-link::after {
   content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
   width: 0;
   height: 2px;
   background: #38bdf8;
-  position: absolute;
-  bottom: -5px;
-  left: 0;
   transition: 0.3s;
 }
 
-.nav a:hover::after {
+.nav-link:hover::after {
   width: 100%;
+}
+
+/* Mobile menu background */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background: #020617;
+    padding: 15px;
+    border-radius: 10px;
+  }
 }
 
 /* ===== SOCIAL BAR ===== */
