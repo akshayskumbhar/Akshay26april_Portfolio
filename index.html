@@ -5,25 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Akshay | Portfolio</title>
 
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
 
 <!-- ===== HEADER ===== -->
-<header class="header">
-  <div class="logo">AKSHAY KUMBHAR</div>
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+  <div class="container-fluid px-4">
 
-  <nav class="nav">
-    <a href="#">Home</a>
-    <a href="/developer.html">Developer</a>
-    <a href="/service.html">Services</a>
-    <a href="/certificates.html">Certificates</a>
-    <a href="/resume.html">Resume</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-</header>
+    <a class="navbar-brand fw-bold text-info" href="index.html">
+      AKSHAY KUMBHAR
+    </a>
+
+    <!-- Hamburger -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#mainNavbar" aria-controls="mainNavbar"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+      <ul class="navbar-nav gap-lg-4">
+
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="developer.html">Developer</a></li>
+        <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="certificates.html">Certificates</a></li>
+        <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
 
 <!-- ===== SOCIAL BAR ===== -->
 <div class="social-bar">
