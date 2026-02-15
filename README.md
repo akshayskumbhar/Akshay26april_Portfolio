@@ -63,11 +63,6 @@ The portfolio focuses on clean UI, responsive design, and real-world project pre
 
 ---
 
-## 🤝 Connect With Me
-
-If you are interested in collaboration, hiring, or discussions, feel free to connect through the **Contact** section of my portfolio or via GitHub.
-
----
 
 ## ⭐ Support
 
