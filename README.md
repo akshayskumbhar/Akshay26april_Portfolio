@@ -1,4 +1,4 @@
-# 🌐 Akshay Kumbhar – Web Portfolio
+# Akshay Kumbhar – Web Portfolio
 
 🚀 **Live Portfolio:**  
 👉 https://akshay26april.vercel.app
